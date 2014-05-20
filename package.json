@@ -1,0 +1,35 @@
+{
+      "name"                        : "ee-elasticache-autodiscovery"
+    , "description"                 : "Retreive Cache Nodes for AWS Elasticache"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-elasticache-autodiscovery"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/ee-elasticache-autodiscovery.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/ee-elasticache-autodiscovery/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "1.0.x"
+        , "ee-event-emitter"        : "0.1.x"
+        , "ee-types"                : "0.1.x"
+        , "ee-log"                  : "0.2.x"
+        , "aws-sdk"                 : "2.0.x"
+        , "ee-project"              : "0.2.x"
+    }
+    , "devDependencies": {
+          "mocha"                   : "1.17.x"
+        , "ee-travis"               : "0.1.x"
+    }
+    , "optionalDependencies": {}
+    , "keywords"                    : ["ee", "aes", "elasticache", "node"]
+    , "scripts": {
+        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+    }
+}
