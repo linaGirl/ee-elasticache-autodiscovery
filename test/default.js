@@ -10,8 +10,7 @@
 	var   AutoDiscovery = require('../')
 		, discovery;
 
-
-
+	
 	describe('The AutoDiscovery', function(){
 		if (project.config && project.config.region) {
 			// can only test local, it requires aws infrastructure
@@ -30,9 +29,20 @@
 					}
 				});
 			});
+
+			it('should be able to report changes with a subscription', function(done){
+				this.timeout(120000);
+
+				discovery.subscribe('staging-cache', function(err, data){
+					if (err) done(err);
+					else {
+						assert(data);
+						done();
+					}
+				});
+			});
 		}
 		else {
-
 			it('should not throw when instantiated', function(){
 				discovery = new AutoDiscovery({});
 			});
