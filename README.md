@@ -1,5 +1,7 @@
 # ee-elasticache-autodiscovery
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-elasticache-autodiscovery.svg)](https://greenkeeper.io/)
+
 Retreive Cache Nodes for AWS Elasticache
 
 ## installation
