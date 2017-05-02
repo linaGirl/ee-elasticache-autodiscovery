@@ -16,15 +16,15 @@
         "url"                       : "https://github.com/eventEmitter/ee-elasticache-autodiscovery/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
-        , "aws-sdk"                 : "2.0.x"
+          "ee-class"                : "~1.4.0"
+        , "ee-event-emitter"        : "~1.0.1"
+        , "ee-types"                : "~2.1.2"
+        , "ee-log"                  : "~2.0.2"
+        , "aws-sdk"                 : "~2.48.0"
         , "ee-project"              : "0.2.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "~3.3.0"
         , "ee-travis"               : "0.1.x"
     }
     , "optionalDependencies": {}
